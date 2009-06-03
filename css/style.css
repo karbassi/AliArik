@@ -1,0 +1,17 @@
+body {width: 750px;margin: 2em auto;}
+.clear{display:block;clear:both;}
+.disappear{line-height:1px;height:1px;margin-left:-9999em !important;display:block !important;float:left;}
+
+.profile {width:300px;height:300px;float:left;}
+#ali{margin-left: 150px;}
+#arik{}
+
+#checklist {width:750px;clear:both;}
+.talent, #last {width:748px;border: 1px solid #999;border-bottom: none;cursor: pointer;background-color: #ddd;}
+#last {border-top: 1px solid #999;}
+.talent h2 {float:left;width:150px;line-height: 2em;text-align: center;font-size: 1em;font-weight: normal;}
+.talent .desc {margin-left: 150px;clear:left;border-top: 1px solid #999;padding: 1em;}
+.talent .yesno {width:298px;float:left;text-align: center;line-height: 2em;height: 2em;border-left: 1px solid #999;background-color: #FFF;}
+
+.talent .yes {background-color: #1FB73D;}
+.talent .no {background-color: #A71B0D;}
