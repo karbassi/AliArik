@@ -1,1 +1,185 @@
-What you should know...
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Because HTML 5 will come and rules you all... -->
+<html lang="en">
+   <head>
+      <title>What you should know...</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+      <style type="text/css" media="screen">
+         body {width: 750px;margin: 2em auto;}
+         .clear{display:block;clear:both;}
+         .disappear{line-height:1px;height:1px;margin-left:-9999em !important;display:block !important;float:left;}
+
+         .profile {width:300px;height:300px;float:left;}
+         #ali{margin-left: 150px;}
+         #arik{}
+         
+         #checklist {width:750px;clear:both;}
+         .talent, #last {width:748px;border: 1px solid #999;border-bottom: none;cursor: pointer;background-color: #ddd;}
+         #last {border-top: 1px solid #999;}
+         .talent h2 {float:left;width:150px;line-height: 2em;text-align: center;font-size: 1em;font-weight: normal;}
+         .talent .desc {margin-left: 150px;clear:left;border-top: 1px solid #999;padding: 1em;}
+         .talent .yesno {width:298px;float:left;text-align: center;line-height: 2em;height: 2em;border-left: 1px solid #999;background-color: #FFF;}
+         
+         .talent .yes {background-color: #1FB73D;}
+         .talent .no {background-color: #A71B0D;}
+         
+      </style>
+      
+      <script type="text/javascript" charset="utf-8" src="js/jquery.pack.js"></script>
+      <script type="text/javascript" charset="utf-8">
+         jQuery(document).ready(function($) {
+            $('.desc').hide();
+            $('.talent').click(function(){
+               $(".desc", this).slideToggle(400);
+            });
+         });
+      </script>
+      
+      
+   </head>
+   <body>
+      <img src="img/ali.jpg" width="300" height="300" alt="Ali Karbassi" class="profile" id="ali">
+      <img src="img/arik.jpg" width="300" height="300" alt="Arik Jones" class="profile" id="arik">
+      <div id="checklist">
+         <div class="talent">
+            <h2>Names</h2>
+            <div class="yesno">
+               Ali Karbassi
+            </div>
+            <div class="yesno">
+               Arik Jones
+            </div>
+            <div class="desc">
+               It's Ali, not Ollie. It's Arrrrr'ik... Not Eric.
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div id="checklist">
+            <div class="talent">
+               <h2>Age</h2>
+               <div class="yesno">
+                  23
+               </div>
+               <div class="yesno">
+                  
+               </div>
+               <div class="desc">
+                  We're old men... wait, no. That's not right.
+               </div>
+
+               <div class="clear"></div>
+            </div>
+         
+      
+         <div class="talent">
+            <h2>PHP</h2>
+            <div class="yesno">
+               Covered
+            </div>
+            <div class="yesno">
+               
+            </div>
+            <div class="desc">
+               PHP is awesome, shut up.
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div class="talent">
+            <h2>Ruby on Rails</h2>
+            <div class="yesno">
+               Learning
+            </div>
+            <div class="yesno">
+               
+            </div>
+            <div class="desc">
+               RoR = Rawr!
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div class="talent">
+            <h2>JavaScript</h2>
+            <div class="yesno">
+               Guru
+            </div>
+            <div class="yesno">
+
+            </div>
+            <div class="desc">
+               jQuery > *
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div class="talent">
+            <h2>XML</h2>
+            <div class="yesno">
+               OMG!
+            </div>
+            <div class="yesno">
+
+            </div>
+            <div class="desc">
+               XML + XSL = AWESOME!
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div class="talent">
+            <h2>CSS</h2>
+            <div class="yesno">
+               Blue Belt
+            </div>
+            <div class="yesno">
+               Black Belt
+            </div>
+            <div class="desc">
+               CSS is your future!
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div class="talent">
+            <h2>Photoshop</h2>
+            <div class="yesno">
+               I can.. a little
+            </div>
+            <div class="yesno">
+               I know every shortcut!
+            </div>
+            <div class="desc">
+               Expensive but worth it.
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div class="talent">
+            <h2>Illustrator</h2>
+            <div class="yesno">
+
+            </div>
+            <div class="yesno">
+
+            </div>
+            <div class="desc">
+               I like it!
+            </div>
+            
+            <div class="clear"></div>
+         </div>
+         
+         <div id="last"></div>
+      </div>
+   </body>
+</html>
